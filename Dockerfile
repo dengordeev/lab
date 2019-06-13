@@ -15,7 +15,6 @@ RUN \
   # очищаем временные файлы
   apt-get clean && \
   rm -rf \
-    /home/jhipster/.cache/ \
     /var/lib/apt/lists/* \
     /tmp/* \
     /var/tmp/*
